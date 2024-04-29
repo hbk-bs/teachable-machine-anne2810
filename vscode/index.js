@@ -104,6 +104,6 @@ function classifyImage() {
     // The results are in an array ordered by confidence.
     console.log(results[0]);
     label = results[0].label;
-    location.href = `/result.html?label=${label}&guesstype=${guessType}`;
+    location.href = `result.html?label=${label}&guesstype=${guessType}`;
  
   }
