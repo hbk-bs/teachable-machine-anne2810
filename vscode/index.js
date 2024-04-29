@@ -107,9 +107,3 @@ function classifyImage() {
     location.href = `/result.html?label=${label}&guesstype=${guessType}`;
  
   }
-
-
-
-
-
-
